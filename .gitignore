@@ -1,0 +1,29 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Local SQLite databases
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+
+# Generated benchmark output
+benchmark_results/
+# Generated reports and exports
+reports/
+*.pdf
+*.csv
+*.txt
+!requirements.txt
+# Local test logs
+sentinelx_test_auth.log
